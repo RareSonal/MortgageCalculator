@@ -31,6 +31,7 @@ const MortgageCalculator = () => {
     return (
         <div className="calculator-container">
             <h2>Mortgage Calculator</h2>
+            <StepGuide /> {/* Include the StepGuide */}
             <p>Find out your monthly mortgage payment easily!</p>
             <form onSubmit={calculateMortgage}>
                 <div className="input-group">
@@ -88,22 +89,6 @@ const MortgageCalculator = () => {
                     />
                 </div>
                 <button type="submit">Calculate</button>
-            </form>
-            {monthlyPayment !== null && (
-                <div className="result">
-                    <h3>Your Monthly Payment: ${monthlyPayment}</h3>
-                </div>
-            )}
-        </div>
-    );
-
-    return (
-        <div className="calculator-container">
-            <h2>Mortgage Calculator</h2>
-            <StepGuide /> {/* Include the StepGuide */}
-            <p>Find out your monthly mortgage payment easily!</p>
-            <form onSubmit={calculateMortgage}>
-                {/* (rest of the form code) */}
             </form>
             {monthlyPayment !== null && (
                 <div className="result">
