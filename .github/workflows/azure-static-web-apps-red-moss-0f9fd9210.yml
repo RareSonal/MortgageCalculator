@@ -30,7 +30,7 @@ jobs:
           action: upload
           app_location: "/src"               # Path to your app source
           api_location: ""                   # Optional: leave empty if no Azure Functions
-          output_location: "build"           # Output from build step (e.g. React, Vue, etc.)
+          output_location: "src/build"           # Output from build step (e.g. React, Vue, etc.)
 
   close_pull_request:
     name: Close Pull Request Job
