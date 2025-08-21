@@ -28,25 +28,31 @@ n = Number of Payments (Years × 12)
 
 # 🧰 Tech Stack
 
-Frontend: React.js (Hooks, Functional Components)
-
-Styling: CSS
-
-CI/CD: GitHub Actions
-
-Hosting: Azure Static Web Apps
+| Layer       | Stack                                            |
+|-------------|--------------------------------------------------|
+| Frontend    | React.js (Hooks, Functional Components)          |
+| Styling     | CSS                                              |
+| Backend     | Node.js                                          |
+| Hosting     | Azure Static Web Apps                            |
+| DevOps      | GitHub Actions                                   |
 
 # ⚙️ Setup Instructions
 
 Clone the repo:
+```bash
 git clone https://github.com/RareSonal/MortgageCalculator.git
 cd MortgageCalculator
+```
 
 Install dependencies:
+```bash
 npm install
+```
 
 Start the development server:
+```bash
 npm start
+```
 
 # 🚢 Deployment
 
