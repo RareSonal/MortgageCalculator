@@ -52,3 +52,6 @@ npm start
 
 This project uses Azure Static Web Apps for automated deployment via GitHub Actions.
 Deployment is triggered on push to the master branch.
+
+# 📬 Contributions
+Pull requests and suggestions are welcome! If you'd like to add support for automatic PR-based deploy previews, CI testing, or multi-region deployment — open an issue or PR.
