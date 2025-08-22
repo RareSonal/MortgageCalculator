@@ -1,5 +1,5 @@
 
-# Mortgage Calculator
+# Mortgage Calculator – Static Web App on Azure 
 
 An interactive web application built with **React.js** to help users estimate their monthly mortgage payments quickly and easily.
 
